@@ -2,8 +2,10 @@ import React, { useState } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css';
 
+
+let valu = `IN THE COURT OF <br> jurisdiction`
 const App=()=>{
-  const [value, setValue] = useState('awdjhasj');
+  const [value, setValue] = useState(valu);
 
   const modules = {
     toolbar: [
